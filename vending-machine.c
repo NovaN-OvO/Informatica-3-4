@@ -19,5 +19,5 @@ int main(void)
     printf("Vending Machine Stock \n");
     printf("----------------------------\n");
     printf("Item Name: Chips \n");// Add the backwards slash.
-    printf("Price: $%f" , 'Price1' );
+    printf("Price: $%f" , Price1 );
 }
