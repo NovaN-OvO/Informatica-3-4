@@ -1,7 +1,0 @@
-#include <stdio.h>
-
-int main(void)
-{
-    int grade = 10;
-    printf("Your grade is = %d \n", grade);
-}
