@@ -23,10 +23,15 @@ int main(void)
 
     printf("Welcome to the Snack Shop! \n");
     printf("---------------------------\n");
-    printf("Item \t Price \t Quantity \t Code \n");
-    printf("\n");
+    printf("Item\t\tPrice\tQuantity\tCode\n");
 
     //Chips
-    //Temporal note: ASK THE TEACHER ABOUT REMOVING DECIMALS. But if not-> Use for %f-> "%.2f"
-    printf("Chips \t $%f %d \n", Price1, Quantity_Chips);
+    //Use for %f to remove decimal zeros-> "%.2f"
+    printf("Chips\t\t$%.2f\t%d\t\t%c\n", Price1, Quantity_Chips, Selection1);
+
+    //Soda
+    printf("Soda\t\t$%.2f\t%d\t\t%c\n", Price2, Quantity_Soda, Selection2);
+
+    //Candies
+    printf("Candy\t\t$%.2f\t%d\t\t%c\n", Price3, Quantity_Candy, Selection3);
 }
