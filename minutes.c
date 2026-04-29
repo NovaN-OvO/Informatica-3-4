@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    //USE MODULUS "%"
+    //USE MODULUS "%" AND IF NOT THEN USE : a - (a / b) * b
     float Minutes1;
     float Hours1 = Minutes1 / 60;
     float Schedule1;
