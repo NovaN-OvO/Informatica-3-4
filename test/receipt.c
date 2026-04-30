@@ -12,10 +12,10 @@ int main(void)
     printf("Item: ");
     scanf("%c", &Item);
 
-    printf("Price: ");
+
     scanf("%f", &Price);
 
-    printf("\nQuantity bought: \n");
+
     scanf("%d", &Quantity);
 
     printf("\n**********************************************");
